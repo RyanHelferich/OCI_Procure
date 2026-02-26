@@ -1,4 +1,4 @@
-# OCI_Procure – OCI VM Provisioning with Retry Logic
+# OCI Procure – OCI VM Provisioning with Retry Logic
 
 ** In Development & Testing ** 
 
