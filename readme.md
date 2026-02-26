@@ -1,5 +1,7 @@
 # OCI_Procure – OCI VM Provisioning with Retry Logic
 
+** In Development & Testing ** 
+
 Provision Oracle Cloud Infrastructure (OCI) Compute instances using the **OCI Python SDK**, with built-in **retry/backoff** when OCI returns host capacity errors (e.g., *“out of host capacity”*).
 
 This repo is intentionally small and focused:
