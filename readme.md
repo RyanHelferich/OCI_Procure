@@ -97,19 +97,19 @@ Fill in `config.json` based on your environment:
 Validates your config and prints the request payload **without** launching an instance:
 
 ```bash
-python main.py --profile SIN --config config.json --dry-run
+python main.py --profile DEFAULT --config config.json --dry-run
 ```
 
 ### Launch
 
 ```bash
-python main.py --profile SIN --config config.json
+python main.py --profile DEFAULT --config config.json
 ```
 
 ### Enable debug logging
 
 ```bash
-python main.py --profile SIN --config config.json --log-level DEBUG
+python main.py --profile DEFAULT --config config.json --log-level DEBUG
 ```
 
 ---
