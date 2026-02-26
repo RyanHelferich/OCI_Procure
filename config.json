@@ -1,0 +1,25 @@
+{
+  "oci_profile": "",
+  "vm_config": {
+    "display_name": "",
+    "compartment_id": "",
+    "image_id": "",
+    "shape": "VM.Standard.E5.Flex",
+    "shape_config": {
+      "ocpus": 1,
+      "memory_in_gbs": 12
+    },
+    "subnet_id": "",
+    "region": "",
+    "availability_domain": "",
+    "ssh_public_key": "",
+    "assign_public_ip": true,
+    "boot_volume_size_in_gbs": 50
+  },
+  "retry_config": {
+    "max_attempts": 30,
+    "initial_delay_seconds": 5,
+    "max_delay_seconds": 300,
+    "backoff_multiplier": 1.5
+  }
+}
